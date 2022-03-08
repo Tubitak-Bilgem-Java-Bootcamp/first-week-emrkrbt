@@ -1,0 +1,4 @@
+1.select rating from film GROUP By rating
+2.select replacement_cost, count(*) from film GROUP BY replacement_cost HAVING count(*) > 50
+3.select store_id, count(*) from customer GROUP BY store_id
+4.select country_id, count(*) from city GROUP By country_id order by count(*) desc limit 1
